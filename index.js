@@ -6,7 +6,7 @@ function numbers(quant){
     var segredos = [];
     var numero = 1;
     while(numero <= quant){
-        var ramdomNumber = sort();
+        var randomNumber = sort();
         if(randomNumber != 0){
             var achou = true;
             for(var posicao = 0; posicao < segredos.length; posicao++){
